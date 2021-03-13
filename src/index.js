@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Huffman from './Huffman';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Huffman />, document.getElementById('root'));

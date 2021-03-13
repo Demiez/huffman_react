@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './Huffman.css';
 import Tree from 'react-d3-tree';
 import 'semantic-ui-css/semantic.min.css';
 import { Button, Label, Step } from 'semantic-ui-react';
 
 let pixels = [];
 let pixelsRGB = [];
-class App extends React.Component {
+class Huffman extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -185,7 +185,7 @@ class App extends React.Component {
       encodedImage = this.mountEncodedImage(pixelsRGB);
     }
     return (
-      <div className="App">
+      <div className="Huffman">
         <Step.Group style={{ marginTop: '3%' }}>
           <Step
             active={active === 'Image_block'}
@@ -206,7 +206,7 @@ class App extends React.Component {
           />
         </Step.Group>
         {this.state.active === 'Image_block' && (
-          <div id="app" className="App-header">
+          <div id="app" className="Huffman-header">
             <Label as="label" basic htmlFor="upload" style={{ margin: '10%' }}>
               <Button
                 icon="upload"
@@ -277,4 +277,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Huffman;

@@ -1,14 +1,14 @@
-.App {
+.Huffman {
   text-align: center;
-	overflow: hidden;
+  overflow: hidden;
 }
 
-.App-logo {
+.Huffman-logo {
   height: 40vmin;
 }
 
-.App-header {
-	overflow: hidden;
+.Huffman-header {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,6 @@
   color: white;
 }
 
-.App-link {
+.Huffman-link {
   color: #09d3ac;
 }
