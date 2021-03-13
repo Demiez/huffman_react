@@ -220,7 +220,7 @@ class Huffman extends React.Component {
                 hidden
                 id="upload"
                 multiple
-                onChange={(e) => this.fileUpload(e.target.files[0], 'ola')}
+                onChange={(e) => this.fileUpload(e.target.files[0], 'ok')}
                 type="file"
               />
             </Label>
