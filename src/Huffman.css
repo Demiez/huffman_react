@@ -3,10 +3,6 @@
   overflow: hidden;
 }
 
-.Huffman-logo {
-  height: 40vmin;
-}
-
 .Huffman-header {
   overflow: hidden;
   display: flex;
@@ -15,8 +11,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.Huffman-link {
-  color: #09d3ac;
 }
